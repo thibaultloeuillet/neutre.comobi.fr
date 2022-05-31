@@ -1,20 +1,35 @@
 titre: <titre sur site>
+# Le covoiturage
 mail: <adresse mail de contact>
+# contact@comobi.fr
 tel: <numéro de téléphone de contact>
+# 0100000000
 nom: <nom de l'instance>
+# neutre.comobi
 formulaire: <adresse du formulaire d'inscription d'un conducteur>
-formulaire_passager: <adresse du formulaire d'inscription d'un passager>
+# "https://docs.google.com/forms/d/e/1FAIpQLSfirgGZ4B_OnP3oe9q_CxMi3Lm5hpCyk_GSIdm9wtizvq3RMA/viewform?usp=sf_link"
 liste_noms_locaux_lieux: <identifiant du google sheet>
+# Si vous souhaitez ajouter une liste de lieux spécifique vous pouvez suivre l'exemple du formulaire suivant
+# - copier le format de [ce tableau](https://docs.google.com/spreadsheets/d/19wFbYCz6PLKaUmnDgCYPOpj5xfuYBaBTYh1QT1pK90w/edit#gid=0) dans un nouveau fichier
+# - ajouter l'identifiant du fichier https://docs.google.com/spreadsheets/d/<IDENTIDIANT>/edit#gid=0 dans le fichier _config.yml pour l'attribut *liste_noms_locaux_lieux*
+# liste_noms_locaux_lieux : 19wFbYCz6PLKaUmnDgCYPOpj5xfuYBaBTYh1QT1pK90w
 lien_cgu: "/cgu"
+# path de la page des Conditions Générales d'Utilisation,
+# ici cgu 
 code_departement: <code du département>
 # code_departement: "34"
 
 liste_ville_restreinte: <oui ou non, restreindre la liste des villes dans le formulaire de recherche (non par défaut)>
+# si oui, la liste dans le formulaire de recherche sera limité aux lieux précisé dans *liste_noms_locaux_lieux*
 
 liste-logo:
   - <image url>
   - <image url>
   - <image url>
+# la liste des logos à afficher dans le footer
+# - generic-images/ademe_logo.jpg
+# - generic-images/ANCT_Logo.jpg
+# - generic-images/beta_gouv_logo.jpg
 
 ## Les sections suivantes ne sont pas à modifier
 sass:
