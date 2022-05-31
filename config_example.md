@@ -1,0 +1,36 @@
+titre: <titre sur site>
+mail: <adresse mail de contact>
+tel: <numéro de téléphone de contact>
+nom: <nom de l'instance>
+formulaire: <adresse du formulaire d'inscription d'un conducteur>
+formulaire_passager: <adresse du formulaire d'inscription d'un passager>
+liste_noms_locaux_lieux: <identifiant du google sheet>
+lien_cgu: "/cgu"
+code_departement: <code du département>
+# code_departement: "34"
+
+liste_ville_restreinte: <oui ou non, restreindre la liste des villes dans le formulaire de recherche (non par défaut)>
+
+liste-logo:
+  - <image url>
+  - <image url>
+  - <image url>
+
+## Les sections suivantes ne sont pas à modifier
+sass:
+  sass_dir: _sass
+  style: compressed
+
+exclude:
+  - direct/
+  - outil-metier/
+
+code_source:
+  instance: https://github.com/betagouv/neutre.comobi.fr
+  comobi: https://github.com/betagouv/comobi
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
