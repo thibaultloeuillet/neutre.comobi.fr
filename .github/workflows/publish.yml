@@ -23,9 +23,8 @@ jobs:
           npm run build:direct
       - name: Build and Push Jekyll site
         uses: helaili/jekyll-action@v2
-        env:
-          token: ${{ secrets.JEKYLL_PAT }}
         with:
+          token: ${{ secrets.JEKYLL_PAT }}
           target_branch: 'deploy'
           jekyll_src: .
       
