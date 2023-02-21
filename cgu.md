@@ -1,4 +1,4 @@
 ---
 layout: home
 ---
-# Conditions Générales d'Utilisation
+# Conditions Générales d'Utilisations
