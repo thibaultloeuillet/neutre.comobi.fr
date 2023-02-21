@@ -24,7 +24,7 @@ jobs:
       - name: Build and Push Jekyll site
         uses: helaili/jekyll-action@v2
         with:
-          repo-token: ${{ secrets.G_TOKEN }}
+          token: ${{ secrets.G_TOKEN }}
           target_branch: 'deploy'
           jekyll_src: .
 
