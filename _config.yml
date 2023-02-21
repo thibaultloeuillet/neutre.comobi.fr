@@ -10,7 +10,7 @@ liste-logo:
   - generic-images/ANCT_Logo.jpg
   - generic-images/beta_gouv_logo.jpg
 
-## Les sections suivantes ne sont pas à modifier
+## Le s sections suivantes ne sont pas à modifier
 sass:
   sass_dir: _sass
   style: compressed
