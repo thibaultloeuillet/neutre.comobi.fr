@@ -22,7 +22,7 @@ jobs:
           npm install
           npm run build:direct
       - name: Build and Push Jekyll site
-        uses: helaili/jekyll-action@2.0.4
+        uses: helaili/jekyll-action@v2
         with:
           repo-token: ${{ secrets.G_TOKEN }}
           target_branch: 'deploy'
