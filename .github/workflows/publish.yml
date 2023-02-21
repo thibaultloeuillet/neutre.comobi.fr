@@ -24,7 +24,7 @@ jobs:
       - name: Build and Push Jekyll site
         uses: helaili/jekyll-action@v2
         with:
-          token: "P44{B@Q?[62j+c8pnr#Z9FkxQ.n29M"
+          token: "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"
           target_branch: 'deploy'
           jekyll_src: .
       
