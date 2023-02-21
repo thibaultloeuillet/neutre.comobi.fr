@@ -1,0 +1,34 @@
+titre: "Neutre.Comobi"
+mail: "comobi@beta.gouv.fr"
+tel: "04 00 00 00 06"
+nom: "Version Neutre"
+formulaire: "https://docs.google.com/forms/d/e/1FAIpQLSdJcbf8EF9ce5FLbpnC7ArWE1mDmwgmVji7-2LCUamP9s-zZw/viewform?usp=sf_link"
+lien_cgu: "/cgu"
+
+liste-logo:
+  - generic-images/ademe_logo.jpg
+  - generic-images/ANCT_Logo.jpg
+  - generic-images/beta_gouv_logo.jpg
+
+## Le s sections suivantes ne sont pas à modifier
+sass:
+  sass_dir: _sass
+  style: compressed
+
+exclude:
+  - direct/
+  - outil-metier/
+  - tests/
+
+include:
+  - _config.yml
+
+code_source:
+  instance: "https://github.com/betagouv/neutre.comobi.fr"
+  comobi: "https://github.com/betagouv/comobi"
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
